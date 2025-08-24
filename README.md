@@ -104,3 +104,27 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 - Commit your changes (`git commit -m 'Add some amazing feature'`)
 - Push to the branch (`git push origin feature/amazing-feature`)
 - Open a Pull Request
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Citation
+If you use this tool in your research, please cite the original Do-You-See-Me dataset:
+
+```bibtex
+@misc{kanade2025multidimensionalbenchmarkevaluating,
+      title={Do You See Me : A Multidimensional Benchmark for Evaluating Visual Perception in Multimodal LLMs}, 
+      author={Aditya Kanade and Tanuja Ganu},
+      year={2025},
+      eprint={2506.02022},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.02022}, 
+}
+```
+
+# Acknowledgments
+Thanks to Microsoft for creating the Do-You-See-Me dataset.
+
+- Built with Hugging Face Transformers
+- Inspired by the need for better evaluation of multimodal AI systems.
