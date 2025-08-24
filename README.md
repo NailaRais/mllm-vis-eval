@@ -128,3 +128,49 @@ Thanks to Microsoft for creating the Do-You-See-Me dataset.
 
 - Built with Hugging Face Transformers
 - Inspired by the need for better evaluation of multimodal AI systems.
+
+
+# What is This Project? (The Big Picture)
+Imagine you're giving an eye exam to AI robots. This project is like that eye exam - it's a tool that tests how well AI models can "see" and understand images.
+
+The project is called **MLLM Visual Evaluator**, and it uses a special test called the "Do-You-See-Me" dataset created by Microsoft.
+
+## The Main Goal 🎯
+To create a standardized test that measures how good different AI models are at visual understanding.
+
+Just like schools use standardized tests to measure student learning, researchers need standardized tests to measure AI capabilities. This project provides that test for vision AI.
+
+## What Does It Actually Do? 🔧
+It takes any AI model that can understand images (called "Multimodal LLMs") and runs it through a series of visual challenges:
+
+- **"Find the Hidden Object" Tests:** Can the AI find a specific shape hidden in a busy background?
+- **"Spatial Reasoning" Tests:** Can the AI understand if an object is to the left, right, above, or below another object?
+- **"Shape Recognition" Tests:** Can the AI identify shapes even when they're rotated, sized differently, or partially hidden?
+- **"Color + Shape" Tests:** Can the AI understand both what shape something is AND what color it is?
+- **"Letter Recognition" Tests:** Can the AI identify letters that might be distorted or unusual?
+
+## Who Would Use This? 👥
+AI Researchers: To test their new models and see how they compare to others  
+Students Learning AI: To understand how vision AI works and experiment with different models  
+Companies Building AI Products: To choose the best vision AI for their specific needs  
+Teachers: To demonstrate AI capabilities in classrooms  
+
+## Key Objectives 📊
+1. **Create a Fair Testing System:** Make sure every AI model takes the exact same test under the same conditions  
+2. **Provide Detailed Report Cards:** Don't just give a pass/fail grade, but show exactly where each model struggles or excels  
+3. **Make it Easy to Use:** Researchers should be able to test any model with just one command  
+4. **Help Improve AI:** By identifying weaknesses, the tool helps researchers make better AI models  
+
+## Simple Analogy 🎓
+Think of this project like a driver's license eye exam for AI:
+
+- The DMV = This evaluation tool  
+- The eye chart = The "Do-You-See-Me" test questions  
+- People taking the test = Different AI models (LLaVA, GPT-4V, etc.)  
+- The vision test results = The accuracy scores this tool generates  
+- The license = A certification that an AI model has good visual understanding  
+
+## Why This Matters 🌟
+As AI becomes more involved in our lives (in self-driving cars, medical imaging, assistive technologies), we need to be sure they can "see" properly. This project helps ensure that the AI systems we rely on actually understand what they're looking at, which is crucial for safety and reliability.
+
+In simple terms: This project helps make AI better at seeing and understanding the world, which makes AI safer and more useful for everyone.
